@@ -1,0 +1,24 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.js"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+    }
+  },
+  "typeAcquisition": {
+    "exclude": [
+      "dotenv",
+      "axios-mock-adapter"
+    ]
+  }
+}

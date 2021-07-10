@@ -1,0 +1,10 @@
+.container {
+  background-color: green;
+
+  .header-section {
+    background-color: blue;
+    width: 120px;
+    height: 45px;
+    background-image: url(@/assets/images/logo.svg);
+  }
+}
